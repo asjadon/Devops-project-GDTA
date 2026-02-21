@@ -1,0 +1,12 @@
+# Terraform files to ignore
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+
+# Ignore tfvars if contains secrets
+terraform.tfvars
+
+# Ignore system files
+*.log
